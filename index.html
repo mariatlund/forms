@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form name="testing" autocomplete="on">
+      <label for="email">
+        <p>E-mail</p>
+        <input
+          type="email"
+          name="email"
+          placeholder="test@email.com"
+          id="email"
+        />
+      </label>
+
+      <label for="username">
+        <p>Username</p>
+        <textarea name="username" id="username" cols="30" rows="1"></textarea>
+      </label>
+
+      <label for="password">
+        <p>Password</p>
+        <input type="password" name="password" id="password" />
+      </label>
+
+      <label for="select">
+        <p>Selection</p>
+        <select name="select" id="select">
+          <option value="Test">Test</option>
+          <option value="Test-2">Test 2</option>
+        </select>
+      </label>
+
+      <label for="checkbox">
+        <p>Checkboxes</p>
+        <input type="checkbox" name="checkbox" id="checkbox" value="test" />
+        <input type="checkbox" name="checkbox" id="checkbox" value="test" />
+      </label>
+
+      <label for="radio">
+        <p>Radio buttons</p>
+        <input type="radio" name="radio" id="radio" />
+        <input type="radio" name="radio" id="radio" />
+      </label>
+
+      <label for="button">
+        <p>Submit</p>
+        <button formaction="submit">Submit</button>
+      </label>
+    </form>
+  </body>
+</html>
